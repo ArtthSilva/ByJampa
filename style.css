@@ -14,8 +14,10 @@ nav {
     background-color: #da0c0c;
     height: 80px;
     width: 100%;
-    box-shadow: 0px 4px 0px #e6e6e6;
-    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 6px 9px #555;
+    border-radius: 0px 0px 15px 15px;
+    position: absolute;
+    overflow: visible;
 }
 
 label.logo {
@@ -47,13 +49,6 @@ nav ul li a {
 a.active, a:hover {
     background: #bd1010;
     transition: .5s;
-}
-
-
-/* CORPO DO SITE */
-
-body {
-    font-family: sans-serif;
 }
 
 /* BOTÃO PARA TELAS MENORES */
@@ -110,8 +105,90 @@ body {
     }
     a:active, a:hover {
         background: #da0c0c;
+        transform: scale(1.2);
     }
     #check:checked ~ ul {
         left: 0;
     }
 }
+
+/* CORPO DO SITE */
+
+body {
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* CARROSSEL DE SLIDES */
+
+.container {
+    height: 520px;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slide-nav {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 10px;
+    height: 9px;
+    border: 1px solid #fff;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.bar:hover {
+    background: #fff;
+}
+
+input {
+    display: none;
+}
+
+.slide-bar {
+    display: flex;
+    width: 400%;
+    height: 100%;
+}
+
+.slide {
+    width: 25%;
+    transition: 1.2s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#img1:checked ~ .img1 {
+    margin-left: 0;
+}
+
+#img2:checked ~ .img1 {
+    margin-left: -25%;
+}
+
+#img3:checked ~ .img1 {
+    margin-left: -50%;
+}
+
+#img4:checked ~ .img1 {
+    margin-left: -75%;
+}
+
+/* APRESENTAÇÃO */ 
+
