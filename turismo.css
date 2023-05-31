@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+/* BARRA DE NAVEGAÇÃO */
+
+nav {
+    background-color: #da0c0c;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0px 6px 9px #555;
+    border-radius: 0px 0px 15px 15px;
+    position: absolute;
+    
+}
+
+label.logo {
+    color: #fff;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 10px;
+}
+
+a.active, a:hover {
+    background: #bd1010;
+    transition: .5s;
+}
+
+/* BOTÃO PARA TELAS MENORES */
+
+.checkbtn {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/* RESOLUÇÕES - TABLETS */
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul il a {
+        font-size: 16px;
+    }
+}
+
+/* RESOLUÇÕES - SMARTPHONES */
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: #bd1010;
+        top: 70px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:active, a:hover {
+        background: #da0c0c;
+        transform: scale(1.2);
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+
+/* CORPO DO SITE */
+
+body {
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* CARROSSEL DE SLIDES */
+
+.container {
+    height: 630px;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slide-nav {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 10px;
+    height: 9px;
+    border: 1px solid #fff;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.bar:hover {
+    background: #fff;
+}
+
+input {
+    display: none;
+}
+/* CONTEÚDOS */
+
+h2 {
+   
+    text-align: center;
+    padding-top: 140px;
+    color: #535353;
+}
+
+ 
+
+div {
+    border-radius: 20px;
+    padding: 30px;
+    color: #fff;
+}
+
+
+
+.card-lagoa {
+    background-color: rgb(3, 173, 224);
+    justify-content: center;
+    align-items: center;
+         position: relative;
+        text-align: center;
+        height: 80%;
+        padding: auto;
+        width: 100%;
+        border-radius: 0px;
+}
+
+.card-bica {
+    
+    background-color: rgb(0, 192, 74);
+    justify-content: center;
+    align-items: center;
+         position: relative;
+        text-align: center;
+        height: 80%;
+        padding: auto;
+        width: 100%;
+        border-radius: 0px;
+        
+}
+
+.card-farol {
+    background-color: rgb(224, 146, 0);
+    justify-content: center;
+    align-items: center;
+         position: relative;
+        text-align: center;
+        height: 87%;
+        padding: auto;
+        width: 100%;
+        border-radius: 0px;
+        
+}
+
+.card-estacao {
+    background-color: rgb(0, 192, 74);
+    justify-content: center;
+    align-items: center;
+         position: relative;
+        text-align: center;
+        height: 80%;
+        padding: auto;
+        width: 100%;
+        border-radius: 0px;
+}
+
+.card-teatro {
+    background-color: rgb(230, 65, 134);
+    justify-content: center;
+    align-items: center;
+         
+        text-align: center;
+        height: 80%;
+        padding: auto;
+        width: 100%;
+        border-radius: 0px;
+    
+}
+
+.espacamento{
+    height: 10px;
+}
+
+.espacamento2{
+    height: 5px;
+}
+
+#imagem1{
+   width: 70%;
+   border-radius: 15px;
+   height: 70%;
+    
+}
+
+.card-centro {
+    background-color: rgb(209, 131, 15);
+    justify-content: center;
+    align-items: center;
+         
+        text-align: center;
+        height: 80%;
+        padding: auto;
+        width: 100%;
+        border-radius: 0px;
+    
+}
+ 
+
+#paragrafo1{
+    text-align: center;
+    padding-top: 12px;
+  
+}
+
+#h4-inicio{
+   text-align: center;
+    padding-bottom: 25px;
+
+}
+
+ 
