@@ -195,7 +195,7 @@ input {
 .text-apresentacao{
     text-align: center;
     align-items: end;
-    padding-top: 690px;
+    padding-top: 800px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 20px;
@@ -254,7 +254,7 @@ background-color: #3594A9;
     
 }
 .centro-historico{
-background-color: #F9E531;
+    background-color: #c8b407;
     height: 64%;
     width:  47%;
     margin-left: auto;
@@ -289,12 +289,12 @@ background-color: #F9E531;
 
 .informacoes-ajuda{
     width: 100%;
-    height: 90%;
+    height: 70%;
     border-radius: 12px 35px 0px 0px;
     background-color: #da0c0c;
     text-align: center;
     margin-top: 30%;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
     padding-top: 2%;
 }
 
