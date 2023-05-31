@@ -211,4 +211,21 @@ body {
     padding-top: 140px;
     text-align: center;
   }
+
+  #litoral{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+.divisor{
+    color: #000000;
+    opacity: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    top: 50px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
   
