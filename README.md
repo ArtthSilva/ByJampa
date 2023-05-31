@@ -1,4 +1,6 @@
-# Projeto_front_facul
+# Alunos: Arthur Pereira, Anderson Barros, Michel Nóbrega
+
+
 https://artthsilva.github.io/Projeto_front_facul/
 
 
