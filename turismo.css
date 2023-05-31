@@ -180,12 +180,13 @@ div {
     background-color: rgb(3, 173, 224);
     justify-content: center;
     align-items: center;
-         position: relative;
+         
         text-align: center;
         height: 80%;
         padding: auto;
-        width: 100%;
-        border-radius: 0px;
+        width: 90%;
+        margin-left: 4%;
+        border-radius: 10px;
 }
 
 .card-bica {
@@ -193,12 +194,13 @@ div {
     background-color: rgb(0, 192, 74);
     justify-content: center;
     align-items: center;
-         position: relative;
+         
         text-align: center;
         height: 80%;
         padding: auto;
-        width: 100%;
-        border-radius: 0px;
+        width: 90%;
+        margin-left: 4%;
+        border-radius: 10px;
         
 }
 
@@ -206,12 +208,12 @@ div {
     background-color: rgb(224, 146, 0);
     justify-content: center;
     align-items: center;
-         position: relative;
-        text-align: center;
+      text-align: center;
         height: 87%;
         padding: auto;
-        width: 100%;
-        border-radius: 0px;
+        width: 90%;
+        margin-left: 4%;
+        border-radius: 10px;
         
 }
 
@@ -219,24 +221,25 @@ div {
     background-color: rgb(0, 192, 74);
     justify-content: center;
     align-items: center;
-         position: relative;
+         
         text-align: center;
         height: 80%;
         padding: auto;
-        width: 100%;
-        border-radius: 0px;
+        width: 90%;
+        margin-left: 4%;
+        border-radius: 10px;
 }
 
 .card-teatro {
     background-color: rgb(230, 65, 134);
     justify-content: center;
-    align-items: center;
-         
+    align-items: center;   
         text-align: center;
         height: 80%;
         padding: auto;
-        width: 100%;
-        border-radius: 0px;
+        width: 90%;
+        margin-left: 4%;
+        border-radius: 10px;
     
 }
 
@@ -263,8 +266,9 @@ div {
         text-align: center;
         height: 80%;
         padding: auto;
-        width: 100%;
-        border-radius: 0px;
+        width: 90%;
+        margin-left: 4%;
+        border-radius: 10px;
     
 }
  
