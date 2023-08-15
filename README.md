@@ -21,9 +21,8 @@ Nós adoramos contribuições da comunidade! Se você quiser adicionar um novo p
 1. Faça um fork deste repositório para sua própria conta do GitHub.
 2. Crie um novo branch para suas alterações: `git checkout -b nova-feature`.
 3. Faça as alterações desejadas no código, adicione novas informações ou imagens.
-4. Certifique-se de seguir as diretrizes de formatação e estilo definidas no arquivo `CONTRIBUTING.md`.
-5. Commit suas alterações com mensagens de commit claras e concisas.
-6. Push para o branch que você criou: `git push origin nova-feature`.
-7. Abra um pull request descrevendo suas alterações e o motivo por trás delas.
+4. Commit suas alterações com mensagens de commit claras e concisas.
+5. Push para o branch que você criou: `git push origin nova-feature`.
+6. Abra um pull request descrevendo suas alterações e o motivo por trás delas.
 
 Sejam bem-vindos e boa viagem! 🌴🏖️🌞
